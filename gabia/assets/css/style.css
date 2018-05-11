@@ -8,7 +8,8 @@
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; }
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
-#info {}
+#select2 {background-color: #1d7abd;}
+#select5 {background-color: #1d7abd;}
 #ad {background: url(../img/ad.jpg) no-repeat center top; background-size: cover; position: relative; z-index: 1;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); position: absolute; left: 0; top: 0;}
 #blog {}
@@ -60,6 +61,27 @@
 .ie8 .select > div.simg3 {background: #2886ca url(../img/select-bg3-ie8.png) no-repeat 30px 220px;}
 .select > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px;}
 .select > div p {font-size: 15px; color: #fff;}
+
+/* .select2 */
+.select2 {overflow: hidden; padding: 70px 0;   }
+.select2 h3 {float: left; width: 32.333%;  margin-right: 1.5%; font-size: 40px; color:#fff; }
+.select2 > div {float: left; width: 26.3333%; margin-right: 1.5%; padding: 3%; height: 300px; }
+.select2 > div.simg1 {background: #2886ca url(../img/ico1.png) no-repeat 30px 30px; background-size: 110px; }
+.select2 > div.simg2 {background: #2886ca url(../img/ico2.png) no-repeat 30px 30px; background-size: 100px; margin-right: 0%;}
+.select2 > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;  }
+.select2 > div  p {font-size: 15px; color: #fff;  }
+
+/* .select5 */
+.select5 {overflow: hidden; padding: 70px 0;   }
+.select5 h3 {float: left; width: 32.333%; margin-right: 1.5%; font-size: 40px; color:#fff; }
+.select5 > div {float: left; width: 26.3333%; margin-right: 1.5%; margin-bottom: 1.5%; padding: 3%; height: 300px; }
+.select5 > div.simg1 {background: #2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 80px; }
+.select5 > div.simg2 {background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0%; }
+.select5 > div.simg3 {background: #2886ca url(../img/select-bg3.png) no-repeat 30px 30px; background-size: 90px; }
+.select5 > div.simg4 {background: #2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 90px; }
+.select5 > div.simg5 {background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0%; }
+.select5 > div  h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;  }
+.select5 > div  p {font-size: 15px; color: #fff;  }
 
 
 /* info */

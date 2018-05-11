@@ -10,6 +10,8 @@
 	<!-- style -->
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">	
+	<link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/slick-theme.css">	
 
 	<!-- font -->
 	<link rel="stylesheet" href="assets/css/font-awesome.css">	
@@ -32,7 +34,7 @@
 		<a href="#blog">블로그</a>
 		<a href="#site">사이트맵</a>
 	</div>
-	
+
 	<div id="wrap">
 		<header id="header">
 			<div class="container">
@@ -62,14 +64,36 @@
 		<!-- //header -->
 		<main>
 			<section id="banner">
-				<div class="container">
-					<div class="banner">
-						<h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
-						<p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
-						<em>HP DL60v3 SSD 20% 할인</em>
-						<a href="#" class="view">자세히 보기</a>
+					<div class="banner-img1">
+						<div class="container">
+							<div class="banner">
+								<h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+								<p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+								<em>HP DL60v3 SSD 20% 할인</em>
+								<a href="#" class="view">자세히 보기</a>
+							</div>
+						</div>
 					</div>
-				</div>
+					<div class="banner-img2">
+						<div class="container">
+							<div class="banner">
+								<h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+								<p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+								<em>HP DL60v3 SSD 20% 할인</em>
+								<a href="#" class="view">자세히 보기</a>
+							</div>
+						</div>
+					</div>
+					<div class="banner-img3">
+						<div class="container">
+							<div class="banner">
+								<h2>신청 즉시 사용하는<br>1분 설치 서버</h2>
+								<p>고성능 SSD 서버를 할인된 금액으로 만나볼 수 있는 기회!<br>선착순 20대, 서두르세요!</p>
+								<em>HP DL60v3 SSD 20% 할인</em>
+								<a href="#" class="view">자세히 보기</a>
+							</div>
+						</div>
+					</div>
 			</section>
 			<!-- //banner -->
 			<section id="sbanner">
@@ -365,5 +389,17 @@
 		</footer>
 		<!-- //footer -->
 	</div>
+	<!-- script -->
+	<script src="assets/js/jquery.min_1.12.4.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#banner').slick({
+					autoplay: true,
+					autoplaySpeed: 3000,
+					dots: true
+			});
+		});
+	</script>
 </body>
 </html>

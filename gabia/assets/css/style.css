@@ -1,4 +1,4 @@
-/* layout */
+/* main page layout */
 #wrap {}
 .ie8 #wrap {}
 .ie9 #wrap {}
@@ -8,16 +8,29 @@
 #banner {height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; }
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
-#select2 {background-color: #1d7abd;}
-#select5 {background-color: #1d7abd;}
 #ad {background: url(../img/ad.jpg) no-repeat center top; background-size: cover; position: relative; z-index: 1;}
 #ad:before {content: ''; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); position: absolute; left: 0; top: 0;}
 #blog {}
 #site {background-color: #f8f9fa;}
 #footer {}
 
+/* sub page layout */
+#sub-banner {background: url(../img/server-bg1.png) repeat-x center top;}
+#sub-banner.mail-bg {background: url(../img/mail-bg1.png) repeat-x center top;}
+#sub-banner.service-bg {background: url(../img/service-bg1.png) repeat-x center top;}
+#sub-banner.webhosting-bg {background: url(../img/webhosting-bg1.png) repeat-x center top;}
+#product-table {  }
+#select2 {background-color: #1d7abd;}
+#select5 {background-color: #1d7abd;}
+#info2 {}
+
 /* container */
 .container {width: 1180px; height: inherit;  /* background-color:rgba(0,0,0,0.5); */  margin: 0 auto;}
+
+/* skip */
+.skip { position: relative;	 }
+.skip a {position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444; background: #333; color: #fff; text-align: center; padding: 10px 0;}
+.skip a:focus, .skip a:active {top: 0;}
 
 /* header */
 .header {overflow: hidden;}
@@ -75,7 +88,7 @@
 .select5 {overflow: hidden; padding: 70px 0;   }
 .select5 h3 {float: left; width: 32.333%; margin-right: 1.5%; font-size: 40px; color:#fff; }
 .select5 > div {float: left; width: 26.3333%; margin-right: 1.5%; margin-bottom: 1.5%; padding: 3%; height: 300px; }
-.select5 > div.simg1 {background: #2886ca url(../img/ico_1.png) no-repeat 30px 30px; background-size: 80px; }
+.select5 > div.simg1 {background: #2886ca url(../img/ico_1.png) no-repeat 30px 30px; background-size: 90px; }
 .select5 > div.simg2 {background: #2886ca url(../img/ico_2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0%; }
 .select5 > div.simg3 {background: #2886ca url(../img/ico_3.png) no-repeat 30px 30px; background-size: 90px; }
 .select5 > div.simg4 {background: #2886ca url(../img/ico_4.png) no-repeat 30px 30px; background-size: 90px; }
@@ -96,6 +109,27 @@
 .info .infor-box .in-left strong {font-size: 30px; color: #0081c8; }
 .info .infor-box .in-right {float: left; width: 50%; padding-left: 50px; box-sizing: border-box;}
 .info .infor-box .in-right li {font-size: 16px;	color: #666;}
+
+/* info2 */
+.info2 {padding: 70px 0; text-align: center;}
+.info2 h3 {font-size: 40px; padding-bottom: 20px; font-weight: 300;}
+.info2 .infor-btn {font-size: 16px; display: inline-block; margin-bottom: 50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition: all 0.3s ease; }
+.info2 .infor-btn:hover {background-color: #000; color: #fff;}
+.info2 .infor-box {overflow: hidden;	text-align: left; padding: 0 150px;}
+.info2 .infor-box .in-left {overflow: hidden;	width: 50%; float: left;	}
+.info2 .infor-box .in-left h4 {float: left;	width: 110px; height: 80px; background-color: #1d7abd; color: #fff; font-size: 16px;	border-radius: 50%; text-align: center; padding-top: 30px; /* box-sizing: border-box; */	}
+.info2 .infor-box .in-left ul {float: left; padding: 25px 0 0 20px;}
+.info2 .infor-box .in-left li {padding-bottom: 10px;	font-size: 16px;	}
+.info2 .infor-box .in-left ul em {width: 160px;	font-size: 16px;display: inline-block;	}
+.info2 .infor-box .in-left ul strong {color: 	#1d7abd;}
+.info2 .infor-box .in-right {overflow: hidden;	width: 50%; float: left;	}
+.info2 .infor-box .in-right h4 {float: left;	width: 110px; height: 90px; background-color: #1d7abd; color: #fff; font-size: 16px;	border-radius: 50%; text-align: center; padding-top: 20px; /* box-sizing: border-box; */	}
+.info2 .infor-box .in-right ul {float: left; padding: 25px 0 0 20px;}
+.info2 .infor-box .in-right li {padding-bottom: 10px;	font-size: 16px;	}
+.info2 .infor-box .in-right ul em {width: 90px;	font-size: 16px;display: inline-block;	}
+.info2 .infor-box .in-right ul strong {color: 	#1d7abd;}
+
+
 
 /* ad */
 .ad {padding: 70px 0; text-align: center; color: #fff; z-index: 10; position: relative;}
@@ -169,14 +203,6 @@
 .footer .w3c {position: absolute; right: 0px; top: 110px; text-align: right;}
 
 
-
-/* sub page */
-#sub-banner {background: url(../img/server-bg1.png) repeat-x center top;}
-#sub-banner.mail-bg {background: url(../img/mail-bg1.png) repeat-x center top;}
-#sub-banner.service-bg {background: url(../img/service-bg1.png) repeat-x center top;}
-#sub-banner.webhosting-bg {background: url(../img/webhosting-bg1.png) repeat-x center top;}
-#product-table {  }
-
 /* sub-banner */
 .sub-banner {overflow: hidden; padding: 80px 0;}
 .sub-banner .sb-left {float: left; width: 760px;}
@@ -239,12 +265,6 @@
 .table-style1 tbody > tr td a {font-size: 16px; background-color: #34a0ef; color: #fff;  padding: 10px 40px 10px 40px; }
 .table-style1 tbody > tr p.label {padding: 20px;} */
 
-
-/* table-style2 */
-.table-style2 {}
-
-/* table-style3 */
-.table-style3 {}
 
 
 /* more */

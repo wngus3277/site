@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>slideToggle</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        a {text-decoration: none;}
+        .accordion-tit {background: #ccc; width: 100%; display: block; padding: 5px; border-top: 1px solid #000;}
+        .accordion-desc {display: none;}
+    </style>
+</head>
+<body>
+   <div>
+       <ul class="accordion">
+           <li><a href="#" class="accordion-tit">title1</a>
+               <div class="accordion-desc">
+                   <p>내용</p>
+               </div>
+           </li>
+           <li><a href="#" class="accordion-tit">title2</a>
+               <div class="accordion-desc">
+                   <p>내용</p>
+               </div>
+           </li>
+           <li><a href="#" class="accordion-tit">title3</a>
+               <div class="accordion-desc">
+                   <p>내용</p>
+               </div>
+           </li>
+       </ul>
+   </div>
+   
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+        //첫번째 버튼을 클릭하면 첫번째 컨텐츠를 보여주세요!
+        $(".accordion-tit").click(function(){
+           $(this).next(".accordion-desc").slideToggle(100);
+        });
+    </script>
+</body>
+</html>

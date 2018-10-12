@@ -1,0 +1,155 @@
+body {font-family: 'Noto Sans', sans-serif; background: #f2f3f4;}
+
+/* 23 */
+#header {color: #fff;  background-image: linear-gradient(to left, #fc5395 0%, #f66f62 100%);}
+
+.banner {height: 28px; color: #fff; text-align: center; font-size: 14px;
+	font-weight: bold; padding: 15px 0 15px 0; line-height: 28px;}
+.banner .menu {position: relative; display: block;}
+.banner span {
+    width: 18px; height: 2px;
+    background: #fff;
+    display: block;
+    margin: 5px 0;
+    position: absolute;
+    left: 0;
+}
+.banner span:nth-child(1) {top: 0px; left: 24px;}
+.banner span:nth-child(2) {top: 6px; left: 24px;}
+.banner span:nth-child(3) {top: 12px; left: 24px;}
+
+.c-box {width: calc(100% - 24px); background: #fff;
+	margin: 12px 12px 0 12px; text-align: center; box-shadow: 0 0 5px rgba(0,0,0,0.1);}
+.c-box figure img {display: block;}
+.c-box .choice {padding: 35px 0 20px 0; width: 80%; margin: 0 10% 0 10%;
+	font-size: 36px; color: #f38b80; font-weight: 700; letter-spacing: -2px;}
+.c-box .choice-en {padding-bottom: 35px; font-size: 12px; color: #999;}
+
+.f-box {height: 55px; background-image: linear-gradient(to left, #fc5395 0%, #f66f62 100%);
+	line-height: 55px; font-size: 14px; text-align: center; color: #fff; margin: 12px;}
+
+/* 24 */
+.up, .down {width: calc(100% - 24); padding: 0 12px 0 12px;}
+.up img {display: block;}
+.up {margin-bottom: 12px; position: relative;}
+.up span {position: absolute; top: 50%; left: 50%; display: inline-block;
+    font-size: 42px; color: #fff; transform: translate(-50%,-50%);
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.5);}
+.down {}
+.down .down-f {position: relative; width: 100%; height: 100%;}
+.down .down-f:before {content: ''; width: 100%; height: 100%; position: absolute; background: rgba(252,83,150,0.5); }
+.down .down-f img {display: block;}
+
+.footer {position: relative; padding-top: 20px;}
+.winner {text-align: center; width: calc(100% - 24px); height: 40px; margin: 0 12px 0 12px;}
+.winner span {display: inline-block; background: #fff; border-radius: 50%; width: 30px; height: 30px; margin-right: 2.5%;}
+.winner span:last-child {margin-right: 0;}
+.winner span.active {box-shadow: 0 0 0 5px rgba(255,255,255,0.5);}
+
+@media(max-width: 360px){
+    .winner {margin: 0 12px 0 12px;}
+    .winner span {width: 20px; height: 20px; margin-right: 3%;}
+}
+
+/* 25 */
+.c-text {background: #fff;}
+.c-text .choice {padding: 40px 0 30px 25px; font-size: 36px; color: #999;}
+.c-text .choice span {color: #f38b80;}
+.c-text .choice-en {padding: 0 0 30px 20px; font-size: 12px; color: #999; font-weight: 700;}
+
+#content-before {width: calc(100% - 48px); height: 10px; margin-left: 24px; background: rgba(255,255,255,0.7);}
+#content-after {width: calc(100% - 72px); height: 10px; margin-left: 36px; background: rgba(255,255,255,0.4);}
+
+.fbox {width: calc(100% - 24px); overflow: hidden; margin: 12px 0 0 12px;}
+.fbox1 {float: left; width: 49%; color: #999; text-align: center; font-weight: 700;
+    height: 55px; line-height: 55px; background: #fff; margin-right: 2%; margin-bottom: 12px;}
+.fbox2 {float: left; width: 49%; color: #f38b80; text-align: center; font-weight: 700;
+    height: 55px; line-height: 55px; background: #fff; margin-bottom: 12px;}
+
+.menu span.active:nth-child(1) {
+    animation: one 1s forwards;
+}
+.menu span.notActive:nth-child(1) {
+    animation: one-reverse 1s forwards;
+}
+.menu span.active:nth-child(2) {
+    animation: two 1s forwards;
+}
+.menu span.notActive:nth-child(2) {
+    animation: two-reverse 1s forwards;
+}
+.menu span.active:nth-child(3) {
+    animation: three 1s forwards;
+}
+.menu span.notActive:nth-child(3) {
+    animation: three-reverse 1s forwards;
+}
+.banner span {
+    width: 18px; height: 2px;
+    background: #fff;
+    display: block;
+    margin: 5px 0;
+    position: absolute;
+    left: 0;
+}
+.banner span:nth-child(1) {top: 0px; left: 24px;}
+.banner span:nth-child(2) {top: 6px; left: 24px;}
+.banner span:nth-child(3) {top: 12px; left: 24px;}
+
+@keyframes one {
+    0% {top: 0;}
+    30% {top: -6px;}
+    60% {top: 6px;}
+    80% {transform: rotate(0);}
+    100% {top: 6px; transform: rotate(45deg);}
+}
+@keyframes two {
+    0% {opacity: 1;}
+    70% {opacity: 1;}
+    100% {opacity: 0;}
+}
+@keyframes three {
+    0% {top: 12px;}
+    30% {top: 18px;}
+    60% {top: 6px;}
+    80% {transform: rotate(0);}
+    100% {top: 6px; transform: rotate(-45deg);}
+}
+@keyframes one-reverse {
+    0% {top: 6px; transform: rotate(45deg);}
+    30% {transform: rotate(0);}
+    60% {top: 6px;}
+    80% {top: -6px;}
+    100% {top: 0;}
+}
+@keyframes two-reverse {
+    0% {opacity: 0;}
+    70% {opacity: 1;}
+    100% {opacity: 1;}
+}
+@keyframes three-reverse {
+    0% {top: 6px; transform: rotate(-45deg);}
+    30% {transform: rotate(0);}
+    60% {top: 6px;}
+    80% {top: 18px;}
+    100% {top: 12px;}
+}
+
+/* 26 */
+body {position: relative;}
+body:before {content:''; position: absolute; background: rgba(0,0,0,0.4); width: 100%; height: 100%; z-index: 99; top: 0; left: 0;}
+.point {font-size: 15px; color: #f29681; text-align: center; height: 50%; width: 75%; font-weight: 700;
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 100; background: #fff;}
+.review {margin: 18px 0; }
+.ppt {color: #fff; width: calc(100% - 24px); font-weight: 700; position: absolute; left: 50%; top: 95%; transform: translate(-50%,-95%);
+	background-image: linear-gradient(to left, #fc5395 0%, #f66f62 100%); padding: 12px 0;}
+textarea {
+    font-family: 'Lato', sans-serif; font-weight: 700;
+    font-size: 20px;
+    color: #fc5395;
+    width: 90%; height: 60%;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.15);
+}

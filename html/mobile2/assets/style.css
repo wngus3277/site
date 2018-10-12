@@ -1,0 +1,7 @@
+
+.head {
+	height: 274px; width: 360px;
+	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+
+.tright {position: absolute; right: 16px; top: 12px; width: 30px; height: 30px;}

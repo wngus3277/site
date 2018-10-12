@@ -1,0 +1,56 @@
+/* hd */
+#hd {border-bottom: 1px solid #e4e4e4; font-size: 14px; width: 100%; }
+.menu-wrap {padding: 16px 0; overflow: hidden;}
+.menu {display: inline-block; border-right: 1px solid #e4e4e4; float: left; width: 50%; text-align: center; box-sizing: border-box;}
+.menu span {margin: 0 28px;}
+.menu > i {border: 1px dashed #e4e4e4; }
+.click.ko .fa.fa-angle-down {display: none;}
+.click.ko .fa.fa-angle-up{display: inline-block;}
+.click .fa.fa-angle-down {display: inline-block;}
+.click .fa.fa-angle-up{display: none;}
+
+
+.menu2 {display: inline-block; float: right; width: 50%; text-align: center; }
+.menu2 span {margin: 0 10px;}
+.menu2 .img {
+	background: url(../img/img.png)no-repeat; 
+	background-size: 20px 14px; 
+	background-position: 16px 2px;
+	width: 43px; height: 16px; 
+	display: inline-block;
+	box-sizing: border-box;
+	 }
+.menu2 > i  {margin-right: 10px; border: 1px dashed #e4e4e4; }
+.menu2 > i:nth-child(4) {border: 0; margin-right: 25px;}
+.menu2 p {display: inline-block; margin-right: 10px;}
+
+
+/* bn */
+#bn {font-size: 14px; width: 100%; font-weight: 700;}
+.bn-box {margin: 20px 20px;  overflow: hidden; }
+.bn-box .int {color: #000; margin-right: 14px; display: inline-block;}
+.bn-box .int.one { border-bottom: 4px solid #2c94f3; display: inline-block;}
+.bn-box .int.one a{color: #2c94f3;}
+.bn-box i {float: right; font-size: 14px; margin-top: 4px;}
+
+
+/* ct */
+#ct {font-size: 14px; width: 100%;}
+.tab_menu {overflow: hidden;display: none;}
+.tab_menu.two.or {display: block;}
+.tab_menu.two.or.kim {display: none;}
+
+.tab_menu .lank {display: inline-block; float: left; margin-left: 20px;}
+.tab_menu .lank li {margin-bottom: 20px; overflow: hidden;}
+.tab_menu .lank li span {float: right;}
+.tab_menu .num { float: right; margin-right: 20px;display: inline-block;}
+.tab_menu .num li {color: #de4f2f; margin-bottom: 20px;}
+.tab_menu .num li:nth-child(2) {color: #e4e4e4;}
+.tab_menu .num li:nth-child(4) {color: #2f87de;}
+.tab_menu .num li:nth-child(7) {color: #2f87de;}
+.tab_menu .num li:nth-child(9) {color: #e4e4e4;}
+
+.clk .fa.fa-long-arrow-down{display: none;}
+.clk .fa.fa-long-arrow-up{display: inline-block;}
+.clk.ho .fa.fa-long-arrow-down{display: inline-block;}
+.clk.ho .fa.fa-long-arrow-up{display: none;}

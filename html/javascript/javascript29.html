@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>데이터 저장하기</title>
+	<script>
+	//변수 : 하나의 데이터를 저장하는 저장소
+	var hotel = "park";
+	document.write(hotel,"<br>");
+	
+	//배열 : 여러개의 데이터를 저장하는 저장소
+	var hotel = ["web","s","y"];
+	document.write(hotel[0],"<br>",hotel[1],"<br>");
+		
+	//객체 : 속성과 메서드를 저장하는 저장소
+	var hotel2 = {
+		name : "java",
+		rooms : 40
+	};
+	document.write(hotel2.name,"<br>");
+	
+	//여러개의 객체 : 여러개의 객체를 저장하는 저장소
+	function Hotel4(name, rooms){
+		this.name = name;
+		
+		this.rooms = rooms;
+	}
+	var hou1 = new Hotel4('css',40);
+	var hou2 = new Hotel4('jennie',7);
+	document.write(hou2.name,"<br>",hou2.rooms,"<br>");	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

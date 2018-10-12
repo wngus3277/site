@@ -1,0 +1,178 @@
+.container {width: 1200px; height: 100%; margin: 0 auto; z-index: 10;}
+
+/*******************seciont1************************/
+.sec1 .header {height: 47px; overflow: hidden; }
+.sec1 .header .h-left {width: 50%; height: 100%; float: left; padding-top: 6px;}
+.sec1 .header .h-left div {display: inline-block; text-align: center; color: #666; font-size: 14px; font-weight: 900;  padding: 5px 15px 5px 15px; position: relative;}
+.sec1 .header .h-left div:after {content: ''; position: absolute; right: -2px; top: 11px;  width: 1px; height: 12px; background: #ccc;}
+.sec1 .header .h-right {width: 50%; height: 100%; float: left; text-align: right; padding-top: 6px;}  
+.sec1 .header .h-right div {display: inline-block; text-align: center; color: #666; font-size: 14px; font-weight: 600; padding: 5px 15px 5px 15px; position: relative;}
+.sec1 .header .h-right div:after {content: ''; position: absolute; right: -2px; top: 9px;  width: 1px; height: 12px; background: #ccc;}
+
+/*******************seciont2************************/
+.sec2 .banner {width: 100%; height: 470px; overflow: hidden; background-color: #c6d1e4; position: relative;}
+.sec2 .banner .ban-left {position: relative; width: 70%; height: 100%; float: left;}
+.sec2 .banner .ban-left img:nth-child(1) {position: absolute; left: 0; top: 122px; z-index: 1;}
+.sec2 .banner .ban-left img:nth-child(2) {position: absolute; left: 14px; bottom: 40px; z-index: 1;}
+.sec2 .banner .ban-left img:nth-child(3) {position: absolute; left: 200px; bottom: 75px; z-index: 2;}
+.sec2 .banner .ban-left img:nth-child(4) {position: absolute; left: 0; bottom: 33px;}
+.sec2 .banner .ban-left img:nth-child(5) {position: absolute; left: 0; top: 40px;}
+
+.ban-center {width: 600px; position: absolute; left: 50%; top: 57px;}
+.ban-center-top { height: 270px; background: #fff; overflow: hidden;}
+.ban-center-top .ban-center-top-text {padding-top: 40px; padding-left: 50px; width: 70%; float: left; }
+.ban-center-top .ban-center-top-text em {font-size: 34px; font-weight: 800;}
+.ban-center-top .ban-center-top-text span {font-size: 22px; font-weight: 600; padding-bottom: 20px; display: inline-block; position: relative;}
+.ban-center-top .ban-center-top-text span:after {content: ''; position: absolute; left: 0; bottom: 0; width: 30px; height: 2px; background: #00907f;}
+.ban-center-top .ban-center-top-text p {font-size: 15px; display: inline-block; padding-top: 20px;}
+.ban-center-top .ban-center-top-text p .color {color: #00907f;}
+.ban-center-top .log-box {width: 20%; float: left; padding-top: 50px;}
+.ban-center-top .log-box a {color: #fff;}
+.ban-center-top .log-box .log-box-top {background: #db3360; width: 80px; height: 80px; text-align: center; margin-bottom: 2px;}
+.ban-center-top .log-box .log-box-top span {color: #fff; font-size: 14px; padding-top: 30px; display: block;}
+.ban-center-top .log-box .log-box-bottom {background: #3c3f44; width: 80px; height: 80px; text-align: center;}
+.ban-center-top .log-box .log-box-bottom span {color: #fff; font-size: 14px; padding-top: 30px; display: block;}
+
+.ban-center-bottom a {color: #fff;}
+.ban-center-bottom .card-service {width: 100%; height: 50px; margin-top: 25px; background: #00907f; display: table;}
+.ban-center-bottom .card-service div {position: relative; font-size: 15px; color: #fff; font-weight: 600; display: inline-block; display: table-cell; vertical-align: middle; text-align: center; }
+.ban-center-bottom .card-service div:after {content: ''; position: absolute; left: 0; top: 20px; width: 1px; height: 12px; background: #fff;}
+.ban-center-bottom .card-service div:nth-child(1):after {display: none;}
+
+.sec2 .banner .ban-right {width: 30%; height: 100%;  background-color: #bbb; float: left;}
+
+/*******************seciont3************************/
+#section3 .container {position: relative;}
+.sec3 {position: relative;}
+.sec3 .nav {width: 100%; height: 100px; background: #fff; position: relative; left: 0; top: -50px; z-index: 3; display: table; box-sizing: border-box; border-bottom: 1px solid #ddd;}
+.sec3 .nav .nav-left {position: absolute; left: 100px; top: 34px; width: 70%; font-size: 15px; display: table-cell; vertical-align: middle; text-align: left;}
+.sec3 .nav .nav-left > li {padding: 5px 20px 8px; font-size: 17px; font-weight: 600; display: inline-block; float: left;}
+/*.sec3 .nav .nav-left li:hover {background: #00907f; border-radius: 3px;}*/
+.sec3 .nav .nav-left li a {width: 50px; height: 30px; }
+/*.sec3 .nav .nav-left li a:hover {color: #fff;}*/
+.sec3 .nav .nav-left li ul {}
+.sec3 .nav .nav-left li ul li {width: 20%; height: 500px; background-color: #ccc; float: left; }
+.sec3 .nav .nav-left li ul li ul li {height: 0;}
+.sec3 .nav .nav-left li ul li span {font-size: 16px; font-weight: 600; color: #000;}
+.sec3 .nav .nav-left li ul li ul li {font-size: 14px; font-weight: 300; color: #666;}
+
+
+.sec3 .nav .nav-right {position: absolute; right: 50px; top: 0; height: 100%; vertical-align: middle; overflow: hidden; }
+.sec3 .nav .nav-right img {padding-top: 25px; float: left;}
+.sec3 .nav .nav-right li {float: left; display: inline-block; width: 102px; height: 38px; background: #fff; border-radius: 3px; border: 1px solid #ccc; box-sizing: border-box; text-align: center; font-size: 13px; font-weight: 600; line-height: 37px; margin-top: 30px; margin-left: 10px;}
+.sec3 .nav .nav-right li:nth-child(3) {background: #404b57; } 
+.sec3 .nav .nav-right li:nth-child(3) a {color: #fff;}
+
+
+/*******************seciont4************************/
+#section4 {background: #f5f6f8;}
+.sec4 .contents {width: 100%; height: 285px; overflow: hidden; margin-top: 60px; display: inline-block;}
+.sec4 .contents .cont-left {width: 50%; height: 100%; float: left; background-color: #fff; box-sizing: border-box; padding-left: 30px;}
+.sec4 .contents .cont-left em {display: block; font-size: 14px; font-weight: 600; padding-top: 20px;}
+.sec4 .contents .cont-left .card1 {float: left; width: 33%; }
+.sec4 .contents .cont-left .card2 {float: left; width: 33%; }
+.sec4 .contents .cont-left .card3 {float: left; width: 33%; }
+.sec4 .contents .cont-left img {width: 147px; height: 93px; padding-top: 10px;}
+.sec4 .contents .cont-left span {display: block; font-weight: 600; font-size: 16px; padding-top: 10px; }
+.sec4 .contents .cont-left .card-nav div {display: inline-block; border: 1px solid #ccc; margin-right: 10px; margin-top: 20px;}
+.sec4 .contents .cont-left .card-nav div span {font-weight: 400; font-size: 16px; padding: 5px 15px;}
+
+.sec4 .contents .cont-right {position: relative; width: 50%; height: 100%; float: left; box-sizing: border-box; background-color: #eee; text-align: center;}
+.sec4 .contents .cont-right img {position: absolute; left: 0; top: 70px; }
+.sec4 .contents .cont-right span { font-size: 15px; font-weight: 500; color: #777; padding-top: 50px;display: inline-block;}
+.sec4 .contents .cont-right em {font-size: 23px; font-weight: 600; margin-top: 20px; display: block;}
+.sec4 .contents .cont-right .card-nav div {display: inline-block; background: #fff; border: 1px solid #fff; margin-right: 10px; margin-top: 30px;}
+.sec4 .contents .cont-right .card-nav div span {font-weight: 400; font-size: 16px; color: #000; padding: 5px 15px;}
+
+/*******************seciont5************************/
+.sec5 .contents2 {width: 100%; height: 564px; overflow: hidden;}
+.sec5 ul {display: inline-block; float: left;}
+.sec5 img {display: block;}
+.sec5 .cont2-01 {width: 300px;}
+.sec5 .cont2-02 {width: 600px; position: relative;}
+.sec5 .cont2-02 li:nth-child(1) {display: inline-block; position: absolute; left: 57px; top: 40px;}
+.sec5 .cont2-02 li:nth-child(2) {display: inline-block; position: absolute; left: 135px; top: 40px;}
+.sec5 .cont2-02 li .event {font-size: 12px; font-weight: 600; color: #fff; background: #1ea091; padding: 4px 10px 3px; border-radius: 3px; display: inline-block;}
+.sec5 .cont2-02 li .winner {font-size: 12px; font-weight: 600; color: #000; background: #fff; padding: 4px 10px 3px; border-radius: 3px; border: 1px solid #ccc; display: inline-block;}
+.sec5 .cont2-02 .img3 {height: 190px; position: relative; background: #8cc7e7;}
+.sec5 .cont2-02 .img3 > a {position: absolute; left: 60px; top: 58px; background: #4c647f; font-size: 14px; font-weight: 600; color: #fff; line-height: 16px; padding: 6px 10px 3px 10px; border-radius: 3px; }
+.sec5 .cont2-02 .img3 > span {position: absolute; left: 60px; top: 90px;font-size: 22px; font-weight: 900; color: #333; letter-spacing: 1px; display: inline-block;}
+.sec5 .cont2-02 .img3 img {position: absolute; left: 150px; top: 70px; display: inline-block;}
+.sec5 .cont2-02 .img3 .cont2-02-text {position: absolute; left: 244px; top: 50px;}
+.sec5 .cont2-02 .img3 .cont2-02-text span {display: inline-block; margin: 0px 0px 15px 7px;}
+.sec5 .cont2-02 .img3 .cont2-02-text span a {display: block; width: 160px; height: 39px; background: #fff; border-radius: 3px; font-size: 16px; text-align: center; line-height: 39px;}
+
+.sec5 .cont2-03 {position: relative; width: 300px; height: 100%; background: #d75e7e;}
+.sec5 .cont2-03 li span {font-size: 23px; text-align: center; color: #fff; display: block; padding-bottom: 20px; padding-top: 40px;}
+.sec5 .cont2-03 .img4 {width: 170px; margin: 0 auto;}
+.sec5 .cont2-03 li p {font-size: 16px; font-weight: 600; text-align: center; color: #fff; display: block; padding-top: 20px;}
+.sec5 .cont2-03 .cont2-03-btn span a {font-size: 14px; color: #000; padding: 8px 60px; background: #fff; border-radius: 3px; display: inline-block; margin-top: 20px;}
+
+/*******************seciont6************************/
+#section6 {background-color: #efefef;}
+.sec6 .service {position: relative; width: 100%; height: 330px; background: url(../../img/cont3-01.jpeg) no-repeat; overflow: hidden; position: relative;}
+.sec6 .service .ser-tit {float: left; width: 50%;}
+.sec6 .service .ser-tit2 {position: absolute; top: 0; left: 0; z-index: -1;}
+.sec6 .service .ser-tit3 {position: absolute; top: 0; left: 0; z-index: -1;}
+.sec6 .service p {font-size: 18px; font-weight: 600; padding: 80px 0 20px 40px;}
+.sec6 .service span {font-size: 50px; font-weight: 900; letter-spacing: 1.5rem; padding: 0px 0 0px 40px;}
+.sec6 .service .ser-tab {float: left; width: 50%; position: absolute; right: 52px; top: 90px;}
+.sec6 .service .ser-tab li {display: inline-block;}
+.sec6 .service .ser-tab li a {width: 100px; height: 100px; background: #ddd; border-radius: 50%; font-size: 16px; font-weight: 600; line-height: 110px; text-align: center; margin-left: 45px; display: inline-block; transition: background 0.5s ease;}
+.sec6 .service .ser-tab li a:hover {background-color: #d75e7e; color: #fff;}
+.sec6 .service .ser-nav {float: left; width: 100%; height: 48px; background: #fff; text-align: center; margin-top: 40px;}
+.sec6 .service .ser-nav li {float: left; display: inline-block; width: 16.5%; position: relative;}
+.sec6 .service .ser-nav li:before {content: ''; position: absolute; top: 18px; right: 0; width: 1px; height: 12px; background: #ccc;}
+.sec6 .service .ser-nav li a {font-size: 16px; line-height: 50px; color: #000; text-align: center; transition: background 0.5s ease;}
+.sec6 .service .ser-nav li a:hover {color: #00907f;}
+
+/*******************seciont7************************/
+#section7 {background-color: #efefef;}
+.sec7 {padding-bottom: 30px;}
+.sec7 .cont4 {overflow: hidden;}
+.sec7 .cont4 .ser-ban {float: left; width: 590px; height: 200px; background: #fff;}
+.sec7 .cont4 .ser-ban .ban-img {float: left;  padding: 40px 50px;}
+.sec7 .cont4 .ser-ban .ban-btn {float: left; padding: 40px 0 0;}
+.sec7 .cont4 .ser-ban .ban-btn li {display: inline-block; border: 1px solid #ccc; border-radius: 5px; margin-left: 10px;}
+.sec7 .cont4 .ser-ban .ban-text {float: left; padding: 20px 0 0 10px;}
+.sec7 .cont4 .ser-ban .ban-text li span {font-size: 16px; margin-bottom: 10px; color: #000; }
+.sec7 .cont4 .ser-ban .ban-text li p {font-size: 15px; color: #666;}
+
+.sec7 .cont4 .ser-ban2 {float: left; width: 300px; height: 200px; margin-left: 10px;}
+.sec7 .cont4 .ser-ban2 a {float: left; width: 50%; height: 100%; text-align: center; color: #fff; font-size: 15px; padding-top: 140px;}
+.sec7 .cont4 .ser-ban2 a:nth-child(1) {background: #2f4369 url(../../img/cont4-01.png) center 54px no-repeat;}
+.sec7 .cont4 .ser-ban2 a:nth-child(2) {background: #00907f url(../../img/cont4-02.png) center 54px no-repeat;}
+
+.sec7 .cont4 .ser-ban3 {float: left; width: 300px; height: 200px; background: #fff;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-text {height: 80%; background: url(../../img/cont4-03.png) 40px center no-repeat; padding: 50px 0 0 120px; box-sizing: border-box;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-text span {font-size: 17px;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-text p {font-size: 15px; color: #666;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-btn {height: 20%; text-align: center; border-top: 1px solid #ccc;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-btn a:nth-child(1) {float: left; font-size: 17px; line-height: 44px; padding-left: 20px;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-btn a:nth-child(3) {float: right; font-size: 17px; line-height: 44px; padding-right: 20px;}
+.sec7 .cont4 .ser-ban3 .ser-ban3-btn span {font-size: 17px; line-height: 44px;}
+
+
+/*******************seciont8************************/
+.sec8 {height: 70px; background: #fff; }
+.sec8 .notice {}
+.sec8 .notice span {font-size: 16px; font-weight: 600; display: inline-block; padding-right: 5px; padding-top: 26px;}
+.sec8 .notice p {font-size: 16px; font-weight: 900; line-height: 12px;  border: 1px solid #ccc; display: inline-block; padding: 4px 5px 0; }
+.sec8 .notice ul {display: inline-block; padding-top: 26px;}
+.sec8 .notice ul li {font-size: 16px; color:#666; padding: 0 30px;  display: inline-block;}
+.sec8 .notice .ntc-btn {float: right; font-size: 12px; line-height: 16px; font-weight: 500; border: 1px solid #ccc; padding: 5px 15px 2px; margin-top: 24px;}
+
+/*******************seciont9************************/
+#section9 {border-top: 1px solid #ccc;}
+.sec9 .footer {position: relative;}
+.sec9 .footer-nav {padding: 25px 0; }
+.sec9 .footer-nav ul li {font-size: 16px; color: #666; padding-right: 20px; display: inline-block;}
+.sec9 .footer-nav ul li.other {color: #000; font-weight: 600;}
+.sec9 address {width: 870px;}
+.sec9 address ul li {font-size: 14px; color: #666; padding: 5px 10px 5px 0; display: inline-block;}
+.sec9 .footer-nav2 {padding: 20px 0;}
+.sec9 .footer-nav2 ul li {display: inline-block;}
+.sec9 .footer-nav2 ul li img {float: left; padding-right: 15px;}
+.sec9 .footer-nav2 ul li span {float: left; padding-right: 15px;}
+.sec9 .familysite {position: absolute; top: 17px; right: 0; padding-top: 20px;}
+.sec9 .familysite a {padding: 8px 20px 5px; border: 1px solid #ccc; font-size: 16px;}
